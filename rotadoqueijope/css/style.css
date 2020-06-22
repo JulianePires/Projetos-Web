@@ -1,0 +1,121 @@
+body{
+	margin: 0;
+}
+
+@font-face{
+	font-family: "fonte1";
+	src: url("../fontes/Nunito-Regular.ttf");
+}
+
+@font-face{
+	font-family: "fonte2";
+	src: url("../fontes/Sen-Bold.ttf");
+}
+
+h1{
+	color: #7D0608;
+	font-family: "fonte2";
+	text-align: center;
+}
+
+h2{
+	color: #7D0608;
+	font-family: "fonte2";
+	text-align: center;
+}
+
+h3,h4{
+	color: white;
+	font-family: "fonte2";
+	text-align: center;
+}
+
+a{
+	color: #7D0608;
+	font-size-adjust: all;
+}
+
+a:hover{
+	color: #B8860B;
+	font-size-adjust: all;
+}
+
+b{
+	color: #7D0608;
+}
+
+p{
+	font-family: fonte1;
+	text-align: justify;
+	font-size: 20px;
+}
+
+.nav-item{
+ 	margin-bottom:-1px;
+ 	list-style:none
+}
+
+.nav-tabs .nav-link{
+	border:1px solid transparent;
+	border-top-left-radius:.25rem;
+	border-top-right-radius:.25rem
+}
+
+.nav-tabs .nav-link:focus,.nav-tabs .nav-link:hover{
+	border-color:#e9ecef #e9ecef #dee2e6
+}
+
+.nav-tabs .nav-item.show .nav-link,.nav-tabs .nav-link.active{
+	color:#495057;
+	background-color:#fff;
+	border-color:#dee2e6 #dee2e6 #fff
+}
+
+.nav-link{
+	font-family: "fonte1";
+	font-size: 20px;
+	color: #7D0608
+}
+
+.nav-link:focus,.nav-link:hover{
+	color: #B8860B;
+	text-decoration:none
+}
+
+
+.nav-tabs{
+	border-bottom:1px solid #7D0608
+}
+
+
+.nav-tabs .nav-link:focus,.nav-tabs .nav-link:hover{
+	border-color:#B8860B #B8860B #7D0608;
+}
+
+.nav-tabs .nav-item.show .nav-link,.nav-tabs .nav-link.active{
+	color:#B8860B;
+	background-color:#fff;
+	border-color:#7D0608 #7D0608 #fff
+}
+
+.jumbotron{
+	background-color: #7D0608;
+}
+
+.jumbotron img{
+	height: 150px;
+}
+
+.listas{
+	font-family: fonte1;
+	text-align: justify;
+	font-size: 20px;
+}
+
+hr{
+	color: #B8860B;
+}
+
+#mp img{
+	alignment-baseline: central;
+}
